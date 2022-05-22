@@ -3,9 +3,10 @@ function deepcopy(a: any): any {
   if (a instanceof Array) {
     const b = [...a];
 
-    a.forEach((x, i) => {
-      if (x instanceof Array || x instanceof Object) b[i] = deepcopy(b[i]);
-    });
+    for (let i = 0; i < b.length; i++) {
+      if (b[i] instanceof Array || b[i] instanceof Object)
+        b[i] = deepcopy(b[i]);
+    }
 
     return b;
   }
