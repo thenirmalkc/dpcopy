@@ -1,5 +1,5 @@
 function deepcopy(a: any): any {
-  // This check should always be first as array is also instance of Object
+  // This check should always be first as array is also instance of Object class
   if (a instanceof Array) {
     const b = [...a];
 
