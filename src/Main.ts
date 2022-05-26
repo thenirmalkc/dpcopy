@@ -25,4 +25,4 @@ function deepcopy(a: any): any {
   return a;
 }
 
-export default deepcopy;
+export = deepcopy;
