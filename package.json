@@ -1,7 +1,7 @@
 {
   "name": "js-deepcopy",
   "version": "1.0.0",
-  "description": "Deep copies arrays and objects",
+  "description": "Simple package to deep copy an array/object.",
   "main": "build/Main.js",
   "types": "@types/Main.d.ts",
   "scripts": {
