@@ -4,10 +4,14 @@ _A deep copy of an array/object is a copy whose elements/properties do not share
 
 Simple package to deep copy an array/object.
 
-Example
+Example:
 
 ```js
+// CommonJS module
 const deepcopy = require('js-deepcopy');
+
+// ES module
+import deepcopy from 'js-deepcopy';
 
 const arr = [{ name: 'ABC' }, { name: 'DEF' }];
 const obj = { name: 'ABC', skills: ['X', 'Y', 'Z'] };
@@ -16,7 +20,7 @@ const new_arr = deepcopy(arr);
 const new_obj = deepcopy(obj);
 
 /* 
-Here the new array/object and all its elements/properties has different 
+The new array/object and all its elements/properties has different 
 reference than that of input array/object.
 
 i.e. 
