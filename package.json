@@ -2,7 +2,8 @@
   "name": "js-deepcopy",
   "version": "1.0.0",
   "description": "Deep copies arrays and objects",
-  "main": "index.js",
+  "main": "build/Main.js",
+  "types": "@types/Main.d.ts",
   "scripts": {
     "test": "npx jest --watch",
     "start": "npx tsc -w"
