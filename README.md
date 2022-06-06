@@ -1,4 +1,4 @@
-# recursive-deepcopy
+# rdcopy (Recursive deep copy)
 
 _A deep copy of an array/object is a copy whose elements/properties do not share the same references as those of the source array/object from which the copy was made._
 
@@ -8,10 +8,10 @@ Example:
 
 ```js
 // CommonJS module
-const deepcopy = require('recursive-deepcopy');
+const deepcopy = require('rdcopy');
 
 // ES module
-import deepcopy from 'recursive-deepcopy';
+import deepcopy from 'rdcopy';
 
 const arr = [{ name: 'ABC' }, { name: 'DEF' }];
 const obj = { name: 'ABC', skills: ['X', 'Y', 'Z'] };

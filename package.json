@@ -1,5 +1,5 @@
 {
-  "name": "recursive-deepcopy",
+  "name": "rdcopy",
   "version": "1.0.0",
   "description": "Simple package to deep copy an array/object.",
   "main": "build/Main.js",
@@ -9,8 +9,7 @@
     "start": "npx tsc -w"
   },
   "keywords": [
-    "recursive-deepcopy",
-    "recursive",
+    "rdcopy",
     "deepcopy",
     "deep",
     "copy"
@@ -19,7 +18,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thenirmalkc/recursive-deepcopy.git"
+    "url": "https://github.com/thenirmalkc/rdcopy.git"
   },
   "devDependencies": {
     "@types/jest": "^28.1.1",
