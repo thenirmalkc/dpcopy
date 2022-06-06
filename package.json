@@ -4,7 +4,7 @@
   "description": "Deep copies arrays and objects",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --watchAll",
+    "test": "npx jest --watch",
     "start": "npx tsc -w"
   },
   "keywords": [],
