@@ -8,7 +8,12 @@
     "test": "npx jest --watch",
     "start": "npx tsc -w"
   },
-  "keywords": ["js-deepcopy", "deepcopy", "deep", "copy"],
+  "keywords": [
+    "js-deepcopy",
+    "deepcopy",
+    "deep",
+    "copy"
+  ],
   "author": "Nirmal KC <thenirmalkc@gmail.com>",
   "license": "ISC",
   "repository": {
