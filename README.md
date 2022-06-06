@@ -15,8 +15,12 @@ const obj = { name: 'ABC', skills: ['X', 'Y', 'Z'] };
 const new_arr = deepcopy(arr);
 const new_obj = deepcopy(obj);
 
-// Here the new array/object and all its elements/properties has different reference than that of input array/object.
-// i.e.
+/* 
+Here the new array/object and all its elements/properties has different 
+reference than that of input array/object.
+
+i.e. 
+*/
 
 console.log(arr[0] === new_arr[0]); // false
 console.log(obj.skills === new_obj.skills); // false
