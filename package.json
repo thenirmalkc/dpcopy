@@ -1,5 +1,5 @@
 {
-  "name": "js-deepcopy",
+  "name": "recursive-deepcopy",
   "version": "1.0.0",
   "description": "Simple package to deep copy an array/object.",
   "main": "build/Main.js",
@@ -9,7 +9,8 @@
     "start": "npx tsc -w"
   },
   "keywords": [
-    "js-deepcopy",
+    "recursive-deepcopy",
+    "recursive",
     "deepcopy",
     "deep",
     "copy"
@@ -18,7 +19,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thenirmalkc/js-deepcopy.git"
+    "url": "https://github.com/thenirmalkc/recursive-deepcopy.git"
   },
   "devDependencies": {
     "@types/jest": "^28.1.1",
